@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soobin Lim Junior Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <style>
+    .container {
+      position: relative;
+    }
+
+    .containerbackground {
+      margin: 3rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 10;
+      transform: rotate(-20deg);
+      -webkit-transform: rotate(-20deg);
+      color: #c6afaf;
+      pointer-events: none;
+    }
+    .containerbackground h1 {
+      color: rgb(86, 54, 54);
+    }
+  
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <div class="containerbackground">
+      <h1>Soobin Lim</h1>
+    </div>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="https://drive.google.com/file/d/1l1PgJMORYgti-qORc8iNzsVhqUzgGqb6/view?usp=sharing">
+            <h4>Resume</h4>
+          </a></li>
+        <li><a href="https://github.com/soobin-lim">
+            <h4>Github</h4>
+          </a></li>
+        <li><a href="https://www.linkedin.com/in/soobin-lim-738835210/">
+            <h4>Linked In</h4>
+          </a></li>
+        <li><a>
+            <h4 id='myBtn'>
+              Contact
+              <!-- Trigger/Open The Modal -->
+              <!-- <button id="myBtn">Open Modal</button> -->
+            </h4>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h4>Phone : 8119964726</h4>
+      <h4>Email : sblim.monterrey@gmail.com</h4>
+      <h4>Github: <a href="github.com/soobin-lim">github.com/soobin-lim</a></h4>
+      <h4>Linked in: <a
+          href="https://www.linkedin.com/in/soobin-lim-738835210/">https://www.linkedin.com/in/soobin-lim-738835210/</a>
+      </h4>
+    </div>
+
+  </div>
+
+  <main>
+    <section>
+      <article>
+        <div id='portfolio1'>
+          <h6>Portfolio1 - Group Porject 1</h6>
+          <hr />
+          <img src="assets/images/1.png" />
+        </div>
+        <div id='portfolio2'>
+          <h6>Portfolio2 - Coding Quiz Challenge</h6>
+          <hr />
+          <img src="assets/images/2.png" />
+        </div>
+        <div id='portfolio3'>
+          <h6>Portfolio3 - Password Generator</h6>
+          <hr />
+          <img src="assets/images/3.png" />
+        </div>
+
+        <!-- <div class="resources">
+          <h3>
+            Show Resources
+          </h3>
+          <ul class="links">
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">MDN web docs on responsive design</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">MDN web docs on using media queries</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">MDN web docs on flexbox</a>
+            </li>
+          </ul>
+        </div> -->
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <span></span>
+  </footer>
+  <script type="text/javascript" src="./assets/javascript/script.js"></script>
+
+</body>
+
+</html>
